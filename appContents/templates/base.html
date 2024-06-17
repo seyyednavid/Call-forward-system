@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='img/favicon.png') }}"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+    <title>{% block title %}{% endblock %}</title>
+    <style>
+      .body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .content {
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-custom">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="{{ url_for('main') }}">
+            <img
+              src="{{ url_for('static', filename='img/Tensator_Logo_White.png') }}"
+              alt="logo in navbar"
+            />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="{{ url_for('main') }}"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('edgelit_save') }}">
+                  Setting</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('upload') }}">Upload </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('show_remove_page') }}"
+                  >Remove
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('handle_gate') }}"
+                  >Gate
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('logout') }}">Log Out </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="body">
+      <section class="content">{% block content %} {% endblock %}</section>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <p>&copy; 2024 Tensator</p>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/bootstrap.min.js') }}"
+    ></script>
+    <script type="text/javascript">
+      // Get the current URL path
+      var path = window.location.pathname;
+
+      // Get all navbar items
+      var navItems = document.querySelectorAll(".navbar-nav .nav-item");
+
+      // Loop through each navbar item and add the active class if the item's href matches the current URL path
+      navItems.forEach(function (item) {
+        var link = item.querySelector(".nav-link");
+        if (link && link.getAttribute("href") === path) {
+          item.classList.add("active");
+        }
+      });
+    </script>
+    <script>
+      // Calculate and set body height dynamically
+      function setBodyHeight() {
+        var headerHeight = document.querySelector("header").offsetHeight;
+        var footerHeight = document.querySelector("footer").offsetHeight;
+        var bodyHeight = window.innerHeight - headerHeight - footerHeight;
+        document.querySelector(".content").style.minHeight = bodyHeight + "px";
+      }
+
+      // Call setBodyHeight when the page loads and when it's resized
+      window.addEventListener("DOMContentLoaded", setBodyHeight);
+      window.addEventListener("resize", setBodyHeight);
+    </script>
+  </body>
+</html>
