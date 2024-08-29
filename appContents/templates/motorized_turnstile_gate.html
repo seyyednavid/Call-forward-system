@@ -1,47 +1,82 @@
 {% extends 'base.html' %} {% block title %} Upload videos {% endblock %} {%
 block content %}
-
+<div class="gate-external">
 <div class="gate-container">
-  <p class="gate-header">
-    <span class="title-color">Adjust </span>Gate Direction
+  <h1 class="gate-header">
+    <span class="title-color">Set </span>Gate Direction
   </h1>
-  <div class="row">
-    <button class="btn" id="northBtn">N &#9650;</button>
+  <div class="button-container">
+    <div>
+      <div class="button-wrapper">
+        <button id='btn-cw90' class="button cw-90">
+          <div class="text">90°</div>
+          <div class="arrow">&#8631;</div>
+          CW
+        </button>
+      </div>
+      <div class="button-wrapper">
+        <button id='btn-ccw90' class="button ccw-90">
+          <div class="text">90°</div>
+          <div class="arrow">&#8630;</div>
+          CCW
+        </button>
+      </div>
+    </div>
+    <div>
+      <div class="button-wrapper">
+        <button id='btn-cw180' class="button cw-180">
+          <div class="text">180°</div>
+          <div class="arrow">&#8635;</div>
+          CW
+        </button>
+      </div>
+
+      <div class="button-wrapper">
+        <button id='btn-ccw180' class="button ccw-180">
+          <div class="text">180°</div>
+          <div class="arrow">&#8634;</div>
+          CCW
+        </button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="../static/img/MG.png" alt="Description of the image">
+    </div>
   </div>
-  <div class="row-middle">
-    <button class="btn" id="westBtn">&#9664; W</button>
-    <button class="btn" id="eastBtn">E &#9654;</button>
-  </div>
-  <div class="row">
-    <button class="btn" id="southBtn">S &#9660;</button>
-  </div>
-  <div style="margin: 1.5rem 0rem">
-    <button>&#9650;</button><span>North </span> <button>&#9664;</button
-    ><span>West </span> <button>&#9654;</button><span>East </span>
-    <button>&#9660;</button><span>South </span>
+  <!-- User Guide -->
+  <div class="user-guide">
+    <div>
+      <p class='title'><strong>Guide:</strong></p>
+    </div>
+    <div>
+      <p>• <strong>90° CW</strong> - Rotate 90 degrees clockwise.</p>
+      <p>• <strong>90° CCW</strong> - Rotate 90 degrees counterclockwise.</p>
+      <p>• <strong>180° CW</strong> - Rotate 180 degrees clockwise.</p>
+      <p>• <strong>180° CCW</strong> - Rotate 180 degrees counterclockwise.</p>
+    </div>
   </div>
 </div>
-
+</div>
 <script>
-  var northBtn = document.getElementById("northBtn");
-  var southBtn = document.getElementById("southBtn");
-  var westBtn = document.getElementById("westBtn");
-  var eastBtn = document.getElementById("eastBtn");
+  var btn_cw90 = document.getElementById("btn-cw90");
+  var btn_ccw90 = document.getElementById("btn-ccw90");
+  var btn_cw180 = document.getElementById("btn-cw180");
+  var btn_ccw180 = document.getElementById("btn-ccw180");
 
-  northBtn.addEventListener("click", function () {
-    sendMessage("North");
-  });
-
-  southBtn.addEventListener("click", function () {
-    sendMessage("South");
-  });
-
-  westBtn.addEventListener("click", function () {
+  btn_cw90.addEventListener("click", function () {
     sendMessage("West");
   });
 
-  eastBtn.addEventListener("click", function () {
+  btn_ccw90.addEventListener("click", function () {
+    sendMessage("North");
+  });
+
+  btn_ccw180.addEventListener("click", function () {
     sendMessage("East");
+  });
+
+  btn_cw180.addEventListener("click", function () {
+    sendMessage("South");
   });
 
   function sendMessage(direction) {
@@ -85,4 +120,5 @@ block content %}
     };
   }
 </script>
+
 {% endblock %}

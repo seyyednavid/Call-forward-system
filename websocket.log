@@ -1,0 +1,90 @@
+2024-08-23 09:14:05,665 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-08-23 09:14:09,921 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-08-23 09:14:09,921 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-23 09:14:10,153 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:10] "GET /callforward HTTP/1.1" 200 -
+2024-08-23 09:14:10,289 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-08-23 09:14:10,296 - websockets.server - INFO - connection open
+2024-08-23 09:14:10,296 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-08-23 09:14:10,624 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:14:11,011 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-23 09:20:28,321 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:20:28] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:20:28,328 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:20:28] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:26:45,752 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:26:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:33:03,176 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:33:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:33:03,187 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:33:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:39:20,613 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:39:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:45:38,036 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:45:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:45:38,050 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:45:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:51:55,468 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:51:55] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:58:12,890 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:58:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 09:58:12,906 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:58:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:04:30,321 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:04:30] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:10:47,762 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:10:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:10:47,780 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:10:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:17:05,221 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:17:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:23:22,660 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:23:22] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:23:22,673 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:23:22] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:29:40,097 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:29:40] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:35:57,521 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:35:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:35:57,526 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:35:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:42:14,972 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:42:14] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:48:32,530 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:48:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:48:32,550 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:48:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 10:54:49,952 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:54:49] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:01:07,393 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:01:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:01:07,401 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:01:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:07:24,848 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:07:24] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:13:42,279 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:13:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:13:42,291 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:13:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:19:59,722 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:19:59] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:26:17,172 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:26:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:26:17,179 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:26:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:32:34,664 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:32:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:38:52,124 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:38:52] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:38:52,132 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:38:52] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:45:09,563 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:45:09] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:51:27,019 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:51:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:51:27,029 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:51:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 11:57:44,455 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:57:44] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:04:01,949 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:04:01] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:04:14,916 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:04:14] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:04:46,987 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:04:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:05:24,341 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:05:24] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:06:21,018 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:06:21] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:07:15,562 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:07:15] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:07:56,941 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:07:56] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:08:37,041 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:08:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:09:26,071 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:09:26] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:10:19,415 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:10:19] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:10:19,422 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:10:19] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:16:36,893 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:16:36] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:22:54,351 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:22:54] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:23:29,178 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:23:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:24:07,991 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:24:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:29:11,781 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:29:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:29:11,806 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:29:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:35:29,280 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:35:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:41:46,736 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:41:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:41:46,741 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:41:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:48:04,230 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:48:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:54:21,838 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:54:21] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 12:54:21,841 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:54:21] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:00:39,449 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:00:39] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:06:57,047 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:06:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:06:57,062 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:06:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:13:14,685 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:13:14] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:19:32,363 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:19:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:19:32,376 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:19:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:25:49,990 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:25:49] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:32:07,633 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:32:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:32:07,659 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:32:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:38:25,264 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:38:25] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:44:42,913 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:44:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:44:42,933 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:44:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:51:00,540 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:51:00] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:57:18,164 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:57:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 13:57:18,171 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:57:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 14:03:35,808 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 14:03:35] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-23 14:04:08,521 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001B0FF7ABA40> disconnected. Total clients: 0
+2024-08-23 14:04:08,526 - websockets.server - INFO - connection closed
