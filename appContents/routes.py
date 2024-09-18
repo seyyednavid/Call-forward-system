@@ -19,6 +19,8 @@ import os;
 import re;
 import subprocess
 from appContents.config import Config 
+from datetime import datetime
+from flask import jsonify
 
             
 
@@ -34,6 +36,13 @@ def page_not_found(error):
     Handles 404 errors by rendering a custom 404 page.
     """
     return render_template('404.html'), 404
+
+
+
+@app.route('/last_update_time')
+def last_update_time():
+    """Returns the timestamp of the last video upload."""
+    return jsonify({'last_update': Config.LAST_UPLOAD_TIME})
 
 
 
@@ -311,6 +320,8 @@ def upload():
                     # The filename must be 'background.mp4' or a numeric value between 1.mp4 and 100.mp4    
                     if filename == 'background.mp4' or (filename.endswith('.mp4') and filename[:-4].isdigit() and 1 <= int(filename[:-4]) <= 100):
                         video.save(os.path.join(upload_folder, filename))
+                        # Update the last upload time
+                        Config.LAST_UPLOAD_TIME = datetime.utcnow().isoformat()
                     else:
                         flash('Invalid filename. Video names must be between 1.mp4 and 100.mp4, including background.mp4.', 'error')
                         return redirect(url_for('upload'))
@@ -323,7 +334,8 @@ def upload():
             flash('Video uploaded successfully', 'success')
         else:
             flash(f'All {len(uploaded_files)} videos uploaded successfully.', 'success')
-        return redirect(url_for('upload'))
+        # Render the upload page and trigger the refresh of the callforward page
+        return render_template('uploadVideos.html')
     
     return redirect(url_for('upload'))
 

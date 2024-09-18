@@ -16,7 +16,7 @@ app = Flask(__name__, static_folder='static')
 # Load configuration from the Config class
 app.config.from_object(Config)
 
-# Determine the root path of the application
+# Determine the root path of the applicationz
 def get_root_path():
     if getattr(sys, 'frozen', False):
         return Path(sys.executable).parent

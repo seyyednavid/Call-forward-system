@@ -2,6 +2,8 @@
 Configuration settings for the Flask application.
 """
 
+import os
+from datetime import datetime
 
 class Config:
     # Credentials for application sign-in
@@ -21,5 +23,8 @@ class Config:
     
     # Secret key for session management and security
     VIDEOS_FOLDER="./appContents/static/videos"
+    
+    # Track the last upload time (initialize with the current time)
+    LAST_UPLOAD_TIME = datetime.utcnow().isoformat()
 
 

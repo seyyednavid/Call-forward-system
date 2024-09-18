@@ -112,6 +112,27 @@
 
       // Initialize WebSocket connection
       initWebSocket();
+
+      let lastUpdate = null;
+
+        function checkForUpdates() {
+            fetch('/last_update_time')
+                .then(response => response.json())
+                .then(data => {
+                    if (lastUpdate && data.last_update !== lastUpdate) {
+                        // If there's a new update, refresh the page
+                        location.reload();
+                    }
+                    lastUpdate = data.last_update;
+                })
+                .catch(error => console.error('Error checking updates:', error));
+        }
+
+        // Check for updates every 60 seconds
+        setInterval(checkForUpdates, 20000); 
+
+        // Also check for updates immediately when the page loads
+        checkForUpdates();
     </script>
   </body>
 </html>

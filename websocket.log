@@ -1,90 +1,1349 @@
-2024-08-23 09:14:05,665 - websockets.server - INFO - server listening on 127.0.0.1:8764
-2024-08-23 09:14:09,921 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-08-30 10:55:55,892 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-08-30 10:56:00,141 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:8888
-2024-08-23 09:14:09,921 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2024-08-23 09:14:10,153 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:10] "GET /callforward HTTP/1.1" 200 -
-2024-08-23 09:14:10,289 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
-2024-08-23 09:14:10,296 - websockets.server - INFO - connection open
-2024-08-23 09:14:10,296 - appContents.websocket - INFO - New client connected. Total clients: 1
-2024-08-23 09:14:10,624 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:14:11,011 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:14:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2024-08-23 09:20:28,321 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:20:28] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:20:28,328 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:20:28] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:26:45,752 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:26:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:33:03,176 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:33:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:33:03,187 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:33:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:39:20,613 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:39:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:45:38,036 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:45:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:45:38,050 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:45:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:51:55,468 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:51:55] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:58:12,890 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:58:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 09:58:12,906 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 09:58:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:04:30,321 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:04:30] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:10:47,762 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:10:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:10:47,780 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:10:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:17:05,221 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:17:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:23:22,660 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:23:22] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:23:22,673 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:23:22] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:29:40,097 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:29:40] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:35:57,521 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:35:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:35:57,526 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:35:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:42:14,972 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:42:14] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:48:32,530 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:48:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:48:32,550 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:48:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 10:54:49,952 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 10:54:49] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:01:07,393 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:01:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:01:07,401 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:01:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:07:24,848 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:07:24] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:13:42,279 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:13:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:13:42,291 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:13:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:19:59,722 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:19:59] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:26:17,172 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:26:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:26:17,179 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:26:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:32:34,664 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:32:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:38:52,124 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:38:52] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:38:52,132 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:38:52] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:45:09,563 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:45:09] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:51:27,019 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:51:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:51:27,029 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:51:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 11:57:44,455 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 11:57:44] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:04:01,949 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:04:01] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:04:14,916 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:04:14] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:04:46,987 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:04:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:05:24,341 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:05:24] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:06:21,018 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:06:21] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:07:15,562 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:07:15] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:07:56,941 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:07:56] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:08:37,041 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:08:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:09:26,071 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:09:26] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:10:19,415 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:10:19] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:10:19,422 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:10:19] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:16:36,893 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:16:36] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:22:54,351 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:22:54] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:23:29,178 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:23:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:24:07,991 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:24:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:29:11,781 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:29:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:29:11,806 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:29:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:35:29,280 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:35:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:41:46,736 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:41:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:41:46,741 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:41:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:48:04,230 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:48:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:54:21,838 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:54:21] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 12:54:21,841 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 12:54:21] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:00:39,449 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:00:39] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:06:57,047 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:06:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:06:57,062 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:06:57] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:13:14,685 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:13:14] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:19:32,363 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:19:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:19:32,376 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:19:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:25:49,990 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:25:49] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:32:07,633 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:32:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:32:07,659 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:32:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:38:25,264 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:38:25] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:44:42,913 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:44:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:44:42,933 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:44:42] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:51:00,540 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:51:00] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:57:18,164 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:57:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 13:57:18,171 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 13:57:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 14:03:35,808 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2024 14:03:35] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
-2024-08-23 14:04:08,521 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001B0FF7ABA40> disconnected. Total clients: 0
-2024-08-23 14:04:08,526 - websockets.server - INFO - connection closed
+2024-08-30 10:56:00,142 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-30 10:56:00,163 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 10:56:00] "GET /callforward HTTP/1.1" 200 -
+2024-08-30 10:56:00,316 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 10:56:00] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-08-30 10:56:00,328 - websockets.server - INFO - connection open
+2024-08-30 10:56:00,328 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-08-30 10:56:00,661 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 10:56:00] "GET /static/videos/background.mp4 HTTP/1.1" 200 -
+2024-08-30 10:56:00,666 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 10:56:00] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 10:56:00,816 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 10:56:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-30 11:02:18,076 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:02:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:08:35,493 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:08:35] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:08:35,501 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:08:35] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:14:52,936 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:14:52] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:21:10,362 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:21:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:21:10,390 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:21:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:27:27,810 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:27:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:33:45,246 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:33:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:33:45,249 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:33:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:40:02,723 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:40:02] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:46:20,168 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:46:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:46:20,191 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:46:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:52:37,603 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:52:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:58:55,037 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:58:55] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 11:58:55,046 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 11:58:55] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 12:05:12,447 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 12:05:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 12:11:29,879 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 12:11:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 12:11:29,891 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 12:11:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 12:17:47,328 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 12:17:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 12:24:04,770 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 12:24:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 12:24:04,780 - werkzeug - INFO - 127.0.0.1 - - [30/Aug/2024 12:24:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-08-30 12:29:52,080 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000023425A583B0> disconnected. Total clients: 0
+2024-08-30 12:29:52,081 - websockets.server - INFO - connection closed
+2024-09-17 14:48:55,957 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 14:49:00,251 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 14:49:00,251 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 14:49:00,270 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:00] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 14:49:00,406 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:00] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-09-17 14:49:00,414 - websockets.server - INFO - connection open
+2024-09-17 14:49:00,415 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 14:49:00,508 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:00] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 14:49:00,676 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-17 14:49:19,425 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:19] "GET / HTTP/1.1" 200 -
+2024-09-17 14:49:19,451 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 14:49:19,452 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:19] "GET /static/img/Tensator_Logo.png HTTP/1.1" 200 -
+2024-09-17 14:49:19,516 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:19] "GET /static/img/favicon.png HTTP/1.1" 200 -
+2024-09-17 14:49:21,573 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:21] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2024-09-17 14:49:21,594 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:21] "GET /main HTTP/1.1" 200 -
+2024-09-17 14:49:21,607 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 14:49:21,609 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-09-17 14:49:21,613 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:21] "GET /static/img/Tensator_Logo_White.png HTTP/1.1" 200 -
+2024-09-17 14:49:21,617 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:49:21] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2024-09-17 14:55:18,161 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:55:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 14:55:18,171 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:55:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 14:55:45,359 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:55:45] "GET /remove HTTP/1.1" 200 -
+2024-09-17 14:55:45,378 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:55:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 14:55:45,378 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:55:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 14:55:45,379 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:55:45] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 14:55:45,379 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:55:45] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 14:57:34,986 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 14:57:39,224 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 14:57:39,224 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 14:57:39,266 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:39] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 14:57:39,327 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 14:57:39,332 - websockets.server - INFO - connection open
+2024-09-17 14:57:39,333 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 14:57:39,510 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:39] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 14:57:53,439 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:53] "[32mGET /remove_video/1.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 14:57:53,464 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:53] "GET /remove HTTP/1.1" 200 -
+2024-09-17 14:57:53,481 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 14:57:53,482 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 14:57:53,483 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:53] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 14:57:53,484 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 14:57:53,510 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:57:53] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 14:59:34,747 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "GET /upload HTTP/1.1" 200 -
+2024-09-17 14:59:34,767 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 14:59:34,768 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 14:59:34,769 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 14:59:34,770 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 14:59:34,797 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 14:59:34,817 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 14:59:34,828 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 14:59:34,833 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 14:59:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 14:59:34,834 - websockets.server - INFO - connection open
+2024-09-17 14:59:34,835 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:00:13,683 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:00:13,694 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E830A87D0> disconnected. Total clients: 1
+2024-09-17 15:00:13,696 - websockets.server - INFO - connection closed
+2024-09-17 15:00:13,706 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:00:13,709 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:00:13,712 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:00:13,715 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:00:13,730 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:00:13,762 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:00:13,764 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:00:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:00:13,769 - websockets.server - INFO - connection open
+2024-09-17 15:00:13,770 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:01:55,467 - websockets.server - INFO - connection open
+2024-09-17 15:01:55,468 - appContents.websocket - INFO - New client connected. Total clients: 3
+2024-09-17 15:01:55,470 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:01:55,470 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:01:55,472 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:01:55,481 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:01:55,483 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E831E1B20> disconnected. Total clients: 2
+2024-09-17 15:01:55,485 - websockets.server - INFO - connection closed
+2024-09-17 15:01:55,513 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:55] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:55,629 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:55] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:55,633 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:55] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:58,802 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:58,802 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:58,812 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:58,900 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:58,929 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:58,941 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:01:58,977 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:01:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:02:05,175 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:05] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:02:05,187 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028EFF928470> disconnected. Total clients: 1
+2024-09-17 15:02:05,189 - websockets.server - INFO - connection closed
+2024-09-17 15:02:05,200 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:05,200 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:05,202 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:05] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:02:05,203 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:05] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:02:19,402 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:19] "[35m[1mGET /remove_video/background.mp4 HTTP/1.1[0m" 500 -
+2024-09-17 15:02:19,415 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:19] "GET /remove_video/background.mp4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-17 15:02:19,417 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:19] "GET /remove_video/background.mp4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-17 15:02:19,451 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:19] "GET /remove_video/background.mp4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-17 15:02:19,467 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:19] "[36mGET /remove_video/background.mp4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-17 15:02:24,398 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "GET /upload HTTP/1.1" 200 -
+2024-09-17 15:02:24,413 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:24,415 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:24,416 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:02:24,417 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:02:24,440 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:02:24,454 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:24,455 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:24] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:02:24,461 - websockets.server - INFO - connection open
+2024-09-17 15:02:24,461 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:02:37,061 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:02:37,071 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028EEA56FFB0> disconnected. Total clients: 1
+2024-09-17 15:02:37,072 - websockets.server - INFO - connection closed
+2024-09-17 15:02:37,080 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:37,082 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:37,085 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:02:37,087 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:02:37,107 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:02:37,122 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:02:37,135 - websockets.server - INFO - connection open
+2024-09-17 15:02:37,136 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:02:37,140 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:02:37,144 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:02:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:00,806 - websockets.server - INFO - connection open
+2024-09-17 15:03:00,807 - appContents.websocket - INFO - New client connected. Total clients: 3
+2024-09-17 15:03:00,809 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:03:00,810 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:03:00,814 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:03:00,831 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:03:00,838 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E831E3020> disconnected. Total clients: 2
+2024-09-17 15:03:00,839 - websockets.server - INFO - connection closed
+2024-09-17 15:03:00,847 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:00] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:00,859 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:00] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:00,865 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:00] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:04,076 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:04,081 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:04,086 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:04,150 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:04,185 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:04,222 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:41,014 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:03:41,022 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E831E1EE0> disconnected. Total clients: 1
+2024-09-17 15:03:41,023 - websockets.server - INFO - connection closed
+2024-09-17 15:03:41,032 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:03:41,034 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:03:41,037 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:03:41,040 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:03:41,060 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:03:41,077 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:03:41,078 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:41,085 - websockets.server - INFO - connection open
+2024-09-17 15:03:41,085 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:03:41,091 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:41,121 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:41] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:03:49,705 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:03:49] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:04,534 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:04,541 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:04,549 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:04,630 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:10,478 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:10,509 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:10,519 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:11,006 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:13,767 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:04:20,476 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:04:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:05:00,206 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:05:00,214 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E831C3EC0> disconnected. Total clients: 1
+2024-09-17 15:05:00,214 - websockets.server - INFO - connection closed
+2024-09-17 15:05:00,226 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:05:00,238 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:05:00,240 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:05:00,242 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:05:00,250 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:05:00,264 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:05:00,272 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "GET /static/videos/background.mp4 HTTP/1.1" 200 -
+2024-09-17 15:05:00,273 - websockets.server - INFO - connection open
+2024-09-17 15:05:00,275 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:05:00,279 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:00] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:05:16,279 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:05:16] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:06:50,752 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:06:50,760 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028EFFB11C10> disconnected. Total clients: 1
+2024-09-17 15:06:50,761 - websockets.server - INFO - connection closed
+2024-09-17 15:06:50,780 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:06:50,781 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:06:50,790 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:06:50,797 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:06:50,797 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:06:50,813 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:06:50,815 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "GET /static/videos/background.mp4 HTTP/1.1" 200 -
+2024-09-17 15:06:50,823 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:06:50] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:06:50,823 - websockets.server - INFO - connection open
+2024-09-17 15:06:50,824 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:10:17,195 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:10:17] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:10:17,202 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028EFF9015B0> disconnected. Total clients: 1
+2024-09-17 15:10:17,203 - websockets.server - INFO - connection closed
+2024-09-17 15:10:17,208 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:10:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:10:17,232 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:10:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:10:17,236 - websockets.server - INFO - connection open
+2024-09-17 15:10:17,236 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:11:17,735 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:11:17,743 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028EEB5A7DA0> disconnected. Total clients: 1
+2024-09-17 15:11:17,744 - websockets.server - INFO - connection closed
+2024-09-17 15:11:17,755 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:11:17,757 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:11:17,757 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:11:17,760 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:11:17,776 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:11:17,791 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:11:17,801 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:17,806 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:17,814 - websockets.server - INFO - connection open
+2024-09-17 15:11:17,816 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:11:17,818 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:17,839 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:17,902 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:17] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 15:11:26,541 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:26] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:31,799 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:31] "[31m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 416 -
+2024-09-17 15:11:47,044 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:47,052 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:47,081 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:11:50,769 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:11:50,770 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:11:50,775 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:11:50,820 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:50] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2024-09-17 15:11:50,830 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:11:50] "[33mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+2024-09-17 15:13:02,883 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:13:02] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:13:02,889 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E832442F0> disconnected. Total clients: 1
+2024-09-17 15:13:02,890 - websockets.server - INFO - connection closed
+2024-09-17 15:13:02,893 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:13:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:13:02,915 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:13:02] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:13:02,917 - websockets.server - INFO - connection open
+2024-09-17 15:13:02,917 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:13:02,924 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:13:02] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:13:02,957 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:13:02] "[31m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 416 -
+2024-09-17 15:13:02,960 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:13:02] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:13:12,899 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E831E11F0> disconnected. Total clients: 1
+2024-09-17 15:13:12,899 - websockets.server - INFO - connection closed
+2024-09-17 15:13:22,812 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000028E831F6E10> disconnected. Total clients: 0
+2024-09-17 15:13:22,814 - websockets.server - INFO - connection closed
+2024-09-17 15:14:39,415 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:39] "GET / HTTP/1.1" 200 -
+2024-09-17 15:14:39,437 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:14:39,438 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:39] "[36mGET /static/img/Tensator_Logo.png HTTP/1.1[0m" 304 -
+2024-09-17 15:14:39,515 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:39] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 15:14:40,451 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:40] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2024-09-17 15:14:40,462 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:40] "GET /main HTTP/1.1" 200 -
+2024-09-17 15:14:40,475 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:14:40,475 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:40] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:14:40,476 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:14:40,477 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:14:41,931 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:41] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:14:41,944 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:14:41,945 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:14:41,945 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:41] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:14:41,946 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:41] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:14:44,168 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:44] "[32mGET /remove_video/1.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 15:14:44,181 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:44] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:14:44,197 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:44] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:14:44,198 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:14:44,199 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:14:44,201 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:14:44] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:15:07,689 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 15:15:11,920 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 15:15:11,920 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 15:15:11,947 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:11] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:15:12,038 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:15:12,044 - websockets.server - INFO - connection open
+2024-09-17 15:15:12,044 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 15:15:12,061 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:12,077 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:12,139 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:23,471 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "GET /upload HTTP/1.1" 200 -
+2024-09-17 15:15:23,485 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:15:23,485 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:15:23,487 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:15:23,487 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:15:23,504 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:15:23,526 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:15:23,537 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:23,567 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:23,568 - websockets.server - INFO - connection open
+2024-09-17 15:15:23,569 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:15:23,641 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:23,664 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:23] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 15:15:41,469 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:41] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:41,492 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:41] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:41,524 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:41] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:47,220 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:15:47,232 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001737F50A000> disconnected. Total clients: 1
+2024-09-17 15:15:47,233 - websockets.server - INFO - connection closed
+2024-09-17 15:15:47,248 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:15:47,248 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:15:47,249 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:15:47,249 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:15:47,291 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:15:47,307 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:15:47,315 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:47,316 - websockets.server - INFO - connection open
+2024-09-17 15:15:47,317 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:15:47,346 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:47,360 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:47,413 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:56,090 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:15:56] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:15:59,999 - websockets.server - INFO - connection open
+2024-09-17 15:16:00,000 - appContents.websocket - INFO - New client connected. Total clients: 3
+2024-09-17 15:16:00,002 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:16:00,004 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:16:00,008 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:16:00,028 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:16:00,031 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001736E2B0C50> disconnected. Total clients: 2
+2024-09-17 15:16:00,032 - websockets.server - INFO - connection closed
+2024-09-17 15:16:00,041 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:16:00] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:16:03,258 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:16:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:16:03,277 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:16:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:16:03,325 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:16:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:16:20,483 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:16:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:16:20,496 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:16:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:16:20,572 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:16:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:19:34,014 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 15:19:38,251 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 15:19:38,251 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 15:19:38,294 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:19:38] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:19:38,373 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:19:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:19:38,385 - websockets.server - INFO - connection open
+2024-09-17 15:19:38,385 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 15:19:38,551 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:19:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:19:38,561 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:19:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:19:38,613 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:19:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:02,984 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:02] "GET / HTTP/1.1" 200 -
+2024-09-17 15:20:03,000 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:03,001 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:03] "[36mGET /static/img/Tensator_Logo.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:03,092 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:03] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:04,528 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:04] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2024-09-17 15:20:04,544 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:04] "GET /main HTTP/1.1" 200 -
+2024-09-17 15:20:04,563 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:04,564 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:04,566 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:04] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:04,568 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:04] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:20:06,628 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:06] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:20:06,642 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:06,643 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:06,646 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:06] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:06,647 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:06] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:20:07,893 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:07,913 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:07,924 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:11,670 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:11] "[32mGET /remove_video/1.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 15:20:11,680 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:11] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:20:11,697 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:11,701 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:11] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:11,702 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:11,706 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:11] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:20:18,110 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "GET /upload HTTP/1.1" 200 -
+2024-09-17 15:20:18,126 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:18,128 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:18,128 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:18,130 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:20:18,155 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:20:18,179 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:18,184 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:18,203 - websockets.server - INFO - connection open
+2024-09-17 15:20:18,204 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:18,204 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:20:18,261 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:18] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:29,662 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:20:29,669 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46B56270> disconnected. Total clients: 1
+2024-09-17 15:20:29,670 - websockets.server - INFO - connection closed
+2024-09-17 15:20:29,687 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:29,690 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:29,691 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:29,692 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:20:29,709 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:20:29,733 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:29,734 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:29,753 - websockets.server - INFO - connection open
+2024-09-17 15:20:29,754 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:20:29,768 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:29,827 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:44,554 - websockets.server - INFO - connection open
+2024-09-17 15:20:44,556 - appContents.websocket - INFO - New client connected. Total clients: 3
+2024-09-17 15:20:44,558 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:20:44,558 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:20:44,561 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:20:44,571 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:20:44,574 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46CEB320> disconnected. Total clients: 2
+2024-09-17 15:20:44,576 - websockets.server - INFO - connection closed
+2024-09-17 15:20:44,584 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:44] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:44,591 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:44] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,774 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,798 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,807 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,826 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,842 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,854 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,859 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:47,859 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:20:59,161 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:59] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:20:59,183 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF463EACC0> disconnected. Total clients: 1
+2024-09-17 15:20:59,184 - websockets.server - INFO - connection closed
+2024-09-17 15:20:59,201 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:59,202 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:20:59,206 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:59] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:20:59,207 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:20:59] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:21:02,655 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:02] "[32mGET /remove_video/2.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 15:21:02,665 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:02] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:21:02,690 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:02,691 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:02,692 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:02] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:21:02,694 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:02] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:21:10,579 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:10,587 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:10,606 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:10] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:11,569 - websockets.server - INFO - connection open
+2024-09-17 15:21:11,570 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:21:11,571 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:21:11,571 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:21:11,573 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:21:11,589 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:21:11,593 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46CF1310> disconnected. Total clients: 1
+2024-09-17 15:21:11,593 - websockets.server - INFO - connection closed
+2024-09-17 15:21:11,613 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:11] "[33mGET /static/videos/2.mp4 HTTP/1.1[0m" 404 -
+2024-09-17 15:21:16,791 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "GET /upload HTTP/1.1" 200 -
+2024-09-17 15:21:16,811 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:16,814 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:16,817 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:21:16,820 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:21:16,846 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:21:16,869 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:16,875 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:16,881 - websockets.server - INFO - connection open
+2024-09-17 15:21:16,881 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:21:16,893 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:16,906 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:16,911 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:16] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:23,877 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:21:23,885 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46CF1E80> disconnected. Total clients: 1
+2024-09-17 15:21:23,886 - websockets.server - INFO - connection closed
+2024-09-17 15:21:23,897 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:23,898 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:23,910 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:21:23,913 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:21:23,917 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:21:23,951 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:23,958 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:23,962 - websockets.server - INFO - connection open
+2024-09-17 15:21:23,964 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:21:23,971 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:23,985 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:23,989 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:23] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:39,123 - websockets.server - INFO - connection open
+2024-09-17 15:21:39,124 - appContents.websocket - INFO - New client connected. Total clients: 3
+2024-09-17 15:21:39,126 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:21:39,127 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:21:39,129 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:21:39,148 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:21:39,150 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46B56750> disconnected. Total clients: 2
+2024-09-17 15:21:39,151 - websockets.server - INFO - connection closed
+2024-09-17 15:21:39,154 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:39] "[35m[1mGET /static/videos/2.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:40,904 - websockets.server - INFO - connection open
+2024-09-17 15:21:40,906 - appContents.websocket - INFO - New client connected. Total clients: 3
+2024-09-17 15:21:40,907 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:21:40,908 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:21:40,911 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:21:40,921 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:21:40,923 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46B547A0> disconnected. Total clients: 2
+2024-09-17 15:21:40,924 - websockets.server - INFO - connection closed
+2024-09-17 15:21:44,415 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:44] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:21:44,425 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF2D8912E0> disconnected. Total clients: 1
+2024-09-17 15:21:44,425 - websockets.server - INFO - connection closed
+2024-09-17 15:21:44,428 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:21:44,452 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:44] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:44,460 - websockets.server - INFO - connection open
+2024-09-17 15:21:44,460 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:21:44,477 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:44] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:44,488 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:44] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:44,495 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:44] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:45,554 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:45,567 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:45,595 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:45,600 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:21:45,631 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:21:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:00,455 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:00,474 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:00,533 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:22:00,546 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF4668DE20> disconnected. Total clients: 1
+2024-09-17 15:22:00,548 - websockets.server - INFO - connection closed
+2024-09-17 15:22:00,558 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:00,562 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:00,565 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:22:00,567 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:22:00,612 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:00] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 15:22:04,193 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:04] "[32mGET /remove_video/2.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 15:22:04,207 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:04] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:22:04,224 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:04,225 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:04] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:22:04,226 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:04,227 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:04] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:22:06,505 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "GET /upload HTTP/1.1" 200 -
+2024-09-17 15:22:06,519 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:06,522 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:06,526 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:22:06,528 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:22:06,548 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:22:06,569 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:06,571 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:06,591 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:06,603 - websockets.server - INFO - connection open
+2024-09-17 15:22:06,604 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:22:06,660 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:06,667 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:06] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:11,836 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:22:11,851 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46B09490> disconnected. Total clients: 1
+2024-09-17 15:22:11,851 - websockets.server - INFO - connection closed
+2024-09-17 15:22:11,862 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:11,866 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:22:11,866 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:11,878 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:22:11,889 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:22:11,915 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:11,920 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:11,925 - websockets.server - INFO - connection open
+2024-09-17 15:22:11,927 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:22:11,938 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:11,953 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:11,955 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:11] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:13,734 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:13,745 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:13,761 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:13,767 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:17,618 - websockets.server - INFO - connection open
+2024-09-17 15:22:17,618 - appContents.websocket - INFO - New client connected. Total clients: 3
+2024-09-17 15:22:17,619 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:22:17,620 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 15:22:17,622 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 15:22:17,634 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 15:22:17,637 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46B567E0> disconnected. Total clients: 2
+2024-09-17 15:22:17,640 - websockets.server - INFO - connection closed
+2024-09-17 15:22:17,651 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:17] "[35m[1mGET /static/videos/2.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:17,659 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:17] "[35m[1mGET /static/videos/2.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,881 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,890 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,905 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,915 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,916 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,935 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,960 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:20,964 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:31,096 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:22:31,107 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46CC8320> disconnected. Total clients: 1
+2024-09-17 15:22:31,108 - websockets.server - INFO - connection closed
+2024-09-17 15:22:31,128 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:31,129 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:31,130 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:22:31,132 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:22:31,161 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:22:31,189 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:22:31,190 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:31] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:31,198 - websockets.server - INFO - connection open
+2024-09-17 15:22:31,198 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:22:46,772 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:22:46,776 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:22:46] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:28:33,954 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:33] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:28:33,963 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46580800> disconnected. Total clients: 1
+2024-09-17 15:28:33,963 - websockets.server - INFO - connection closed
+2024-09-17 15:28:33,978 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:28:33,986 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:33] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:28:33,989 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:33] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:28:33,991 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:28:34,005 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:34] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:28:34,035 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:28:34,040 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:28:34,043 - websockets.server - INFO - connection open
+2024-09-17 15:28:34,044 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:28:34,056 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:28:34,077 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:28:34,082 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:28:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:03,497 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:03,509 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:03,528 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:03,532 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:04,248 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:04,260 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:04,305 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:29:04,310 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:29:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:35:26,948 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:26] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:35:26,954 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46B09490> disconnected. Total clients: 1
+2024-09-17 15:35:26,955 - websockets.server - INFO - connection closed
+2024-09-17 15:35:26,967 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:35:26,970 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:35:26,971 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:26] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:35:26,973 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:26] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:35:26,994 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:26] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:35:27,019 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:35:27,019 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:35:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:35:27,028 - websockets.server - INFO - connection open
+2024-09-17 15:35:27,029 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:36:32,578 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "POST /upload HTTP/1.1" 200 -
+2024-09-17 15:36:32,583 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF467AB680> disconnected. Total clients: 1
+2024-09-17 15:36:32,584 - websockets.server - INFO - connection closed
+2024-09-17 15:36:32,598 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:32,599 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:32,601 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:36:32,613 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:36:32,656 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:36:32,674 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:32,680 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:36:32,682 - websockets.server - INFO - connection open
+2024-09-17 15:36:32,684 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:36:32,688 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:36:53,792 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:53] "GET /main HTTP/1.1" 200 -
+2024-09-17 15:36:53,814 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF46CB7B00> disconnected. Total clients: 1
+2024-09-17 15:36:53,815 - websockets.server - INFO - connection closed
+2024-09-17 15:36:53,823 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:53,829 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:53,835 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:53] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:36:53,838 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:36:54,712 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:54] "GET /settings HTTP/1.1" 200 -
+2024-09-17 15:36:54,737 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:54,738 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:54,744 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:54] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:36:54,745 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:54] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:36:55,780 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "GET /upload HTTP/1.1" 200 -
+2024-09-17 15:36:55,804 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:55,804 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:55,804 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:36:55,810 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:36:55,847 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:36:55,870 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:55,873 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:55] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:36:55,876 - websockets.server - INFO - connection open
+2024-09-17 15:36:55,878 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:36:59,219 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:59] "GET /remove HTTP/1.1" 200 -
+2024-09-17 15:36:59,232 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001DF464782F0> disconnected. Total clients: 1
+2024-09-17 15:36:59,233 - websockets.server - INFO - connection closed
+2024-09-17 15:36:59,244 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:59,245 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:36:59,249 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:59] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:36:59,250 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:36:59] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:37:00,208 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:00] "GET /gate HTTP/1.1" 200 -
+2024-09-17 15:37:00,229 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:37:00,229 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:37:00,235 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:00] "GET /static/img/MG.png HTTP/1.1" 200 -
+2024-09-17 15:37:00,235 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:00] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:37:00,237 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:00] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:37:13,532 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:13] "GET /settings HTTP/1.1" 200 -
+2024-09-17 15:37:13,553 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:37:13,557 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:13] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:37:13,557 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:37:13,559 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:13] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:37:29,570 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "GET /upload HTTP/1.1" 200 -
+2024-09-17 15:37:29,591 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 15:37:29,594 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:37:29,601 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 15:37:29,602 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 15:37:29,651 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 15:37:29,670 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 15:37:29,670 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:37:29,678 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:37:29] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:37:29,712 - websockets.server - INFO - connection open
+2024-09-17 15:37:29,712 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 15:43:47,814 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:43:47] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:50:05,262 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:50:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:50:05,267 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:50:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 15:56:22,994 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 15:56:22] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:02:40,577 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:02:40] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:02:40,586 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:02:40] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:08:58,917 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:08:58] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:14:14,737 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 16:14:18,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 16:14:18,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 16:14:19,602 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:19] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:14:21,975 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:21] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:14:21,991 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:22,048 - websockets.server - INFO - connection open
+2024-09-17 16:14:22,049 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:14:22,053 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:22] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:14:22,058 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:22] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:14:22,085 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:22] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:14:37,296 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:37] "[32mGET /main HTTP/1.1[0m" 302 -
+2024-09-17 16:14:37,317 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:37] "GET /signin HTTP/1.1" 200 -
+2024-09-17 16:14:37,351 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:37,354 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:37] "[36mGET /static/img/Tensator_Logo.png HTTP/1.1[0m" 304 -
+2024-09-17 16:14:37,393 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:37] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 16:14:38,930 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:38] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2024-09-17 16:14:38,949 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:38] "GET /main HTTP/1.1" 200 -
+2024-09-17 16:14:38,966 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:38,967 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:38,968 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:38] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:14:38,969 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:38] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:14:40,209 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:40] "GET /settings HTTP/1.1" 200 -
+2024-09-17 16:14:40,237 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:40,238 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:40,240 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:40] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:14:40,243 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:14:44,368 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:14:44,387 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:44,389 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:44,390 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:14:44,392 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:14:44,420 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:14:44,435 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:44,435 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:14:44,442 - websockets.server - INFO - connection open
+2024-09-17 16:14:44,444 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:14:44,463 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:44] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:14:45,539 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:45] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:14:45,552 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E34ED4DC10> disconnected. Total clients: 1
+2024-09-17 16:14:45,552 - websockets.server - INFO - connection closed
+2024-09-17 16:14:45,566 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:45,567 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:45,568 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:45] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:14:45,576 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:45] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:14:50,598 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:50] "[32mGET /remove_video/1.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 16:14:50,606 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:50] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:14:50,630 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:50,632 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:50] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:14:50,632 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:14:50,633 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:50] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:14:57,364 - websockets.server - INFO - connection open
+2024-09-17 16:14:57,365 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:14:57,366 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:14:57,367 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 16:14:57,369 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 16:14:57,389 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:14:57,390 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E34F36ECC0> disconnected. Total clients: 1
+2024-09-17 16:14:57,391 - websockets.server - INFO - connection closed
+2024-09-17 16:14:57,398 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:14:57] "[33mGET /static/videos/1.mp4 HTTP/1.1[0m" 404 -
+2024-09-17 16:15:04,335 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:04] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:15:04,343 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E34F1C58B0> disconnected. Total clients: 0
+2024-09-17 16:15:04,343 - websockets.server - INFO - connection closed
+2024-09-17 16:15:04,346 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:04,373 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:15:04,377 - websockets.server - INFO - connection open
+2024-09-17 16:15:04,377 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:15:04,383 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:15:04,392 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:04] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:15:14,092 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:15:14,107 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:14,108 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:14,111 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:15:14,113 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:15:14,140 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:15:14,168 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:14,169 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:15:14,177 - websockets.server - INFO - connection open
+2024-09-17 16:15:14,178 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:15:14,196 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:15:14,322 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:14] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 16:15:23,306 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:23] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:15:23,316 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E34F3F1EE0> disconnected. Total clients: 1
+2024-09-17 16:15:23,316 - websockets.server - INFO - connection closed
+2024-09-17 16:15:23,329 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:23,332 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:23,332 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:23] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:15:23,336 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:23] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:15:24,948 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:24] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:15:24,970 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:24,972 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:24,975 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:24] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:15:24,977 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:24] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:15:24,995 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:24] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:15:25,016 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:25] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:15:25,017 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:15:25,022 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:25] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:15:25,027 - websockets.server - INFO - connection open
+2024-09-17 16:15:25,029 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:15:25,058 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:25] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:15:35,050 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2024-09-17 16:15:35,062 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E34F21A9C0> disconnected. Total clients: 1
+2024-09-17 16:15:35,063 - websockets.server - INFO - connection closed
+2024-09-17 16:15:35,067 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:35] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-17 16:15:35,069 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:35] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-17 16:15:35,087 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:35] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-17 16:15:35,121 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:35] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-17 16:15:39,280 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:15:39] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:16:04,390 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:16:04] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:16:25,806 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E34F21A780> disconnected. Total clients: 0
+2024-09-17 16:16:25,807 - websockets.server - INFO - connection closed
+2024-09-17 16:17:23,172 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 16:17:27,447 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 16:17:27,448 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 16:17:27,593 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:17:27] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:17:27,705 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:17:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:17:27,711 - websockets.server - INFO - connection open
+2024-09-17 16:17:27,712 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:17:27,741 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:17:27] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:17:27,849 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:17:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:18:27,718 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:18:27] "[35m[1mGET /last_update_time HTTP/1.1[0m" 500 -
+2024-09-17 16:18:52,614 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:18:52] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:19:16,363 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 16:19:20,596 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 16:19:20,596 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 16:19:20,614 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:19:20] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:19:20,687 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:19:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:19:20,697 - websockets.server - INFO - connection open
+2024-09-17 16:19:20,699 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:19:20] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:19:20,699 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:19:20,872 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:19:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:19:20,875 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:19:20] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:20:20,703 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:20] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:20:22,797 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:22] "GET / HTTP/1.1" 200 -
+2024-09-17 16:20:22,812 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:22,814 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:22] "[36mGET /static/img/Tensator_Logo.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:22,882 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:22] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:24,148 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:24] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2024-09-17 16:20:24,177 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:24] "GET /main HTTP/1.1" 200 -
+2024-09-17 16:20:24,193 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:24,196 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:24,197 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:24] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:24,200 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:24] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:20:25,823 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:25] "GET /settings HTTP/1.1" 200 -
+2024-09-17 16:20:25,854 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:25,856 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:25,858 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:25] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:25,860 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:20:27,476 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:20:27,493 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:27,493 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:27,496 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:27,497 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:20:27,521 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:20:27,544 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:27,548 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:20:27,554 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:27] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:20:27,568 - websockets.server - INFO - connection open
+2024-09-17 16:20:27,569 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:20:28,730 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:28] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:20:28,754 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:28,755 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:28,755 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:28] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:28,755 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:28] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:20:28,780 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x00000298F1807860> disconnected. Total clients: 1
+2024-09-17 16:20:28,781 - websockets.server - INFO - connection closed
+2024-09-17 16:20:37,018 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "GET /main HTTP/1.1" 200 -
+2024-09-17 16:20:37,035 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:37,036 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:37,037 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:37,038 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:20:37,955 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "GET /settings HTTP/1.1" 200 -
+2024-09-17 16:20:37,989 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:37,989 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:37,991 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:37,993 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:37] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:20:38,819 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:20:38,840 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:38,844 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:38,847 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:20:38,851 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:20:38,871 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:20:38,888 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:20:38,890 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:20:38,896 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:20:38,917 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:20:38] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:20:38,929 - websockets.server - INFO - connection open
+2024-09-17 16:20:38,930 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:21:20,700 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:21:20] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:21:38,904 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:21:38] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:21:53,640 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x00000298F30EB140> disconnected. Total clients: 1
+2024-09-17 16:21:53,642 - websockets.server - INFO - connection closed
+2024-09-17 16:22:01,974 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-17 16:22:06,275 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-17 16:22:06,276 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-17 16:22:06,338 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:06] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:22:06,439 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:06] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:22:06,449 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:06] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:22:06,454 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:06,463 - websockets.server - INFO - connection open
+2024-09-17 16:22:06,464 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:22:06,466 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:06] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:22:06,484 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:06] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:22:38,914 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:38] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:22:38,925 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:38] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:22:38,943 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:38,946 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:22:38,951 - websockets.server - INFO - connection open
+2024-09-17 16:22:38,951 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:22:38,953 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:38] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:22:39,461 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:39] "GET /main HTTP/1.1" 200 -
+2024-09-17 16:22:39,482 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:39,483 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:39,484 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:39] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:22:39,485 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:39] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:22:39,515 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFD1BFB0> disconnected. Total clients: 1
+2024-09-17 16:22:39,516 - websockets.server - INFO - connection closed
+2024-09-17 16:22:39,533 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:39] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 16:22:40,362 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:40] "GET /settings HTTP/1.1" 200 -
+2024-09-17 16:22:40,395 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:40,396 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:40,398 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:40] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:22:40,399 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:22:51,093 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:51] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:22:51,116 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:51,120 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:22:51,122 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:51] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:22:51,130 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:22:51] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:23:00,671 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:00] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:23:00,692 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:00,693 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:00,696 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:00] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:23:00,698 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:00] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:23:04,128 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:04] "[32mGET /remove_video/1.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 16:23:04,142 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:04] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:23:04,169 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:04,171 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:04,172 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:04] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:23:04,173 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:04] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:23:06,000 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:06] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:23:06,016 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:06,020 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:06,022 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:06] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:23:06,024 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:06] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:23:06,478 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:06] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:23:13,948 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:13] "POST /upload HTTP/1.1" 200 -
+2024-09-17 16:23:13,968 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:13,971 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:13,975 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:13] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:23:13,979 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:13] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:23:32,055 - websockets.server - INFO - connection open
+2024-09-17 16:23:32,055 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:23:32,055 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:23:32,055 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 16:23:32,055 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 16:23:32,064 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:23:32,068 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFCA7A10> disconnected. Total clients: 1
+2024-09-17 16:23:32,069 - websockets.server - INFO - connection closed
+2024-09-17 16:23:32,082 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:32] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:23:35,386 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:35] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:23:35,404 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:35] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:23:35,556 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:35] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:23:43,257 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:43] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:23:43,280 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:43] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:23:43,280 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:43,280 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:43,283 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:43] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:23:45,708 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:45] "[32mGET /remove_video/2.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 16:23:45,726 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:45] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:23:45,743 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:45,743 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:23:45,748 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:45] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:23:45,750 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:45] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:23:56,095 - websockets.server - INFO - connection open
+2024-09-17 16:23:56,095 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:23:56,098 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:23:56,098 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 16:23:56,100 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 16:23:56,108 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:23:56,110 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFF81B6E0> disconnected. Total clients: 1
+2024-09-17 16:23:56,112 - websockets.server - INFO - connection closed
+2024-09-17 16:23:56,127 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:23:56] "[33mGET /static/videos/2.mp4 HTTP/1.1[0m" 404 -
+2024-09-17 16:24:03,140 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:03] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:24:03,152 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFD19790> disconnected. Total clients: 0
+2024-09-17 16:24:03,152 - websockets.server - INFO - connection closed
+2024-09-17 16:24:03,154 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:24:03,180 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:24:03,185 - websockets.server - INFO - connection open
+2024-09-17 16:24:03,185 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:24:03,187 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:24:12,467 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:12] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:24:12,491 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:24:12,495 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:24:12,497 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:12] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:24:12,498 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:12] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:24:12,525 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:12] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 16:24:25,917 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:25] "POST /upload HTTP/1.1" 200 -
+2024-09-17 16:24:25,943 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:24:25,943 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:24:25,944 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:24:25,946 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:24:25] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:24:48,458 - websockets.server - INFO - connection open
+2024-09-17 16:24:48,459 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:24:48,460 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:24:48,461 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 16:24:48,465 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 16:24:48,473 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:24:48,477 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFCA7860> disconnected. Total clients: 1
+2024-09-17 16:24:48,477 - websockets.server - INFO - connection closed
+2024-09-17 16:25:02,074 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:02] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:25:02,097 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:25:02,097 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:25:02,100 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:02] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:25:02,102 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:02] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:25:03,201 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:25:03,213 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:03] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:25:03,219 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFD6AF60> disconnected. Total clients: 0
+2024-09-17 16:25:03,220 - websockets.server - INFO - connection closed
+2024-09-17 16:25:03,225 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:25:03,246 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:25:03,253 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:25:03,253 - websockets.server - INFO - connection open
+2024-09-17 16:25:03,254 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:25:03,254 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:25:04,621 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:04] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:25:04,637 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:25:04,640 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:25:04,641 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:04] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:25:04,645 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:04] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:25:04,663 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:04] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 16:25:09,219 - websockets.server - INFO - connection open
+2024-09-17 16:25:09,220 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-17 16:25:09,221 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:25:09,222 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-17 16:25:09,224 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-17 16:25:09,239 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-17 16:25:09,241 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFD1A1E0> disconnected. Total clients: 1
+2024-09-17 16:25:09,241 - websockets.server - INFO - connection closed
+2024-09-17 16:25:09,252 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:09] "[35m[1mGET /static/videos/2.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:25:12,448 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:12] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:25:29,104 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:29] "POST /upload HTTP/1.1" 200 -
+2024-09-17 16:25:29,119 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:25:29,122 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:25:29,128 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:29] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:25:29,130 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:29] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:25:41,687 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:41] "[31m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 416 -
+2024-09-17 16:25:41,692 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:25:41] "[31m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 416 -
+2024-09-17 16:26:03,257 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:26:03,268 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:26:03,273 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFEF76B0> disconnected. Total clients: 0
+2024-09-17 16:26:03,274 - websockets.server - INFO - connection closed
+2024-09-17 16:26:03,277 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:26:03,293 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:26:03,296 - websockets.server - INFO - connection open
+2024-09-17 16:26:03,296 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:26:03,298 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:26:03,304 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:26:03,314 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:26:03,322 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:26:32,730 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:26:32,741 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:26:32,764 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:26:32,768 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:26:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:27:03,310 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:27:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:28:03,312 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:28:10,557 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:10] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:28:10,592 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:10,595 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:10,597 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:10] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:28:10,598 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:10] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:28:10,621 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:10] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-17 16:28:13,868 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:13] "[32mGET /remove_video/1.mp4 HTTP/1.1[0m" 302 -
+2024-09-17 16:28:13,880 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:13] "GET /remove HTTP/1.1" 200 -
+2024-09-17 16:28:13,897 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:13,898 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:13,901 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:13] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:28:13,902 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:13] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:28:24,043 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:24] "GET /upload HTTP/1.1" 200 -
+2024-09-17 16:28:24,065 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:24,067 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:24,069 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:24] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:28:24,071 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:24] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:28:34,944 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:34] "POST /upload HTTP/1.1" 200 -
+2024-09-17 16:28:34,962 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:34,963 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:28:34,973 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:34] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-17 16:28:34,974 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:28:34] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-17 16:29:03,319 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:29:03,328 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "GET /callforward HTTP/1.1" 200 -
+2024-09-17 16:29:03,335 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFEF4E60> disconnected. Total clients: 0
+2024-09-17 16:29:03,336 - websockets.server - INFO - connection closed
+2024-09-17 16:29:03,339 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-17 16:29:03,357 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:29:03,362 - websockets.server - INFO - connection open
+2024-09-17 16:29:03,363 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-17 16:29:03,364 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:29:03,368 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:29:03,382 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:29:03,386 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:03] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:29:32,606 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:29:32,620 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:29:32,635 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:29:32,639 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:29:32] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-17 16:30:03,368 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:30:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:31:03,362 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:31:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:32:03,376 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:32:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:33:03,379 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:33:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:34:03,378 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:34:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:35:03,379 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:35:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:36:03,365 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:36:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:37:03,373 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:37:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:38:03,371 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:38:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:39:03,385 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:39:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:40:03,378 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:40:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:41:03,382 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:41:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:42:03,372 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:42:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:43:03,376 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:43:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:44:03,387 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:44:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:45:03,390 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:45:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:46:03,380 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:46:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:47:03,392 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:47:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:48:03,399 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:48:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:49:03,383 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:49:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:50:03,388 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:50:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:51:03,382 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:51:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:52:03,389 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:52:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:53:03,395 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:53:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:54:03,403 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:54:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:55:03,396 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:55:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:56:03,385 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:56:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:57:03,396 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:57:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:58:03,389 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:58:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 16:59:03,398 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 16:59:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:00:03,405 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:00:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:01:03,394 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:01:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:02:03,389 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:02:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:03:03,390 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:03:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:04:03,397 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:04:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:05:03,390 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:05:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:06:03,403 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:06:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:07:03,396 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:07:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:08:03,390 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:08:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:09:03,408 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:09:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:10:03,400 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:10:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:11:03,401 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:11:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:12:03,396 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:12:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:13:03,403 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:13:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:14:03,401 - werkzeug - INFO - 127.0.0.1 - - [17/Sep/2024 17:14:03] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-17 17:14:32,489 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001BDFFEF6270> disconnected. Total clients: 0
+2024-09-17 17:14:32,490 - websockets.server - INFO - connection closed
+2024-09-18 08:37:00,383 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-18 08:37:04,674 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-18 08:37:04,674 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-18 08:37:04,910 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:04] "GET /callforward HTTP/1.1" 200 -
+2024-09-18 08:37:05,193 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:37:05,199 - websockets.server - INFO - connection open
+2024-09-18 08:37:05,199 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:05] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:37:05,199 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-18 08:37:07,445 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:37:07,470 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:37:07,704 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:37:07,722 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:07] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:37:37,709 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:37:37,717 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:37:37,754 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:37:37,756 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:37:37] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:38:05,205 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:38:05] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:39:05,296 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:39:05] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:39:53,373 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x0000029D9BD35A90> disconnected. Total clients: 0
+2024-09-18 08:39:53,373 - websockets.server - INFO - connection closed
+2024-09-18 08:40:00,043 - websockets.server - INFO - server listening on 127.0.0.1:8764
+2024-09-18 08:40:04,293 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2024-09-18 08:40:04,293 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-09-18 08:40:04,318 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:04] "GET /callforward HTTP/1.1" 200 -
+2024-09-18 08:40:04,416 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:40:04,422 - websockets.server - INFO - connection open
+2024-09-18 08:40:04,422 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-18 08:40:04,424 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:04] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:40:04,559 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:04,576 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:04,800 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:04,804 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:04] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:24,489 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:24] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:40:34,674 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:34,687 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:34,703 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:34,708 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:34] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:40:44,537 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:40:44] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:41:04,593 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:41:04] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:41:24,643 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:41:24] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:41:44,688 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:41:44] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:42:04,746 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:04] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:42:24,799 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:24] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:42:31,224 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:31] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-09-18 08:42:31,248 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:31] "GET /signin HTTP/1.1" 200 -
+2024-09-18 08:42:31,274 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:42:31,278 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:31] "[36mGET /static/img/Tensator_Logo.png HTTP/1.1[0m" 304 -
+2024-09-18 08:42:31,313 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:31] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-18 08:42:32,456 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:32] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2024-09-18 08:42:32,485 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:32] "GET /main HTTP/1.1" 200 -
+2024-09-18 08:42:32,506 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:42:32,508 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:42:32,515 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:32] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:42:32,516 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:32] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:42:34,286 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:34] "GET /settings HTTP/1.1" 200 -
+2024-09-18 08:42:34,310 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:42:34,315 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:42:34,317 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:34] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:42:34,318 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:34] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:42:44,853 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:44] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:42:57,248 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:57] "POST /settings HTTP/1.1" 200 -
+2024-09-18 08:42:57,272 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:42:57,272 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:42:57,273 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:57] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:42:57,274 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:42:57] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:04,892 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:04] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:43:06,525 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:06] "GET /upload HTTP/1.1" 200 -
+2024-09-18 08:43:06,540 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:06,542 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:06,543 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:06] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:06,544 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:06] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:43:07,455 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:07] "GET /remove HTTP/1.1" 200 -
+2024-09-18 08:43:07,471 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:07,474 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:07,477 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:07] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:07,478 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:07] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:43:11,892 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:11] "[32mGET /remove_video/1.mp4 HTTP/1.1[0m" 302 -
+2024-09-18 08:43:11,903 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:11] "GET /remove HTTP/1.1" 200 -
+2024-09-18 08:43:11,925 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:11,927 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:11,929 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:11] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:11,935 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:11] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:43:14,931 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:14] "[32mGET /remove_video/2.mp4 HTTP/1.1[0m" 302 -
+2024-09-18 08:43:14,942 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:14] "GET /remove HTTP/1.1" 200 -
+2024-09-18 08:43:14,962 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:14,963 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:14,967 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:14] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:14,973 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:14] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:43:18,103 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:18] "[32mGET /remove_video/12.mp4 HTTP/1.1[0m" 302 -
+2024-09-18 08:43:18,113 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:18] "GET /remove HTTP/1.1" 200 -
+2024-09-18 08:43:18,135 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:18,135 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:18,138 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:18] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:18,140 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:18] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:43:20,742 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:20] "[32mGET /remove_video/8.mp4 HTTP/1.1[0m" 302 -
+2024-09-18 08:43:20,756 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:20] "GET /remove HTTP/1.1" 200 -
+2024-09-18 08:43:20,779 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:20,782 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:20,787 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:20] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:20,792 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:20] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:43:24,514 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:24] "GET /upload HTTP/1.1" 200 -
+2024-09-18 08:43:24,526 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:24,530 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:24] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:43:24,533 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:24,535 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:24] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:24,943 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:24] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:43:44,976 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:44] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:43:53,354 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:53] "POST /upload HTTP/1.1" 200 -
+2024-09-18 08:43:53,375 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:53,377 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:43:53,378 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:53] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:43:53,379 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:43:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:44:04,571 - websockets.server - INFO - connection open
+2024-09-18 08:44:04,572 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-18 08:44:04,578 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-18 08:44:04,579 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-18 08:44:04,581 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '2', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-18 08:44:04,598 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-18 08:44:04,603 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E3695DB440> disconnected. Total clients: 1
+2024-09-18 08:44:04,604 - websockets.server - INFO - connection closed
+2024-09-18 08:44:04,615 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:04] "[35m[1mGET /static/videos/2.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:04,975 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:04] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:44:04,988 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:04] "GET /callforward HTTP/1.1" 200 -
+2024-09-18 08:44:04,997 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E369619970> disconnected. Total clients: 0
+2024-09-18 08:44:04,998 - websockets.server - INFO - connection closed
+2024-09-18 08:44:05,001 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:05,016 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:05,024 - websockets.server - INFO - connection open
+2024-09-18 08:44:05,024 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-18 08:44:05,026 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:05] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:44:05,036 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:05,107 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:05,113 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:05] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:09,673 - websockets.server - INFO - connection open
+2024-09-18 08:44:09,673 - appContents.websocket - INFO - New client connected. Total clients: 2
+2024-09-18 08:44:09,677 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-18 08:44:09,678 - appContents.websocket - INFO - Received message: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 1, 'no_of_flashes': 5, 'on_color': [255, 0, 0], 'off_color': [0, 0, 0], 'free_color': [0, 255, 0], 'busy_color': [255, 165, 0]}}
+2024-09-18 08:44:09,680 - appContents.websocket - INFO - The message prepared to be sent: {'ws_id': 'Tensator_Websocket_server', 'cb_id': 'CB_123456789', 'device_type': 'Edgelit-button', 'cmd_info': {'target': '1', 'event': 'Open', 'flash_speed': 4, 'no_of_flashes': 5, 'on_color': (0, 0, 255), 'off_color': (0, 0, 0), 'free_color': (0, 255, 0), 'busy_color': (255, 0, 0)}}
+2024-09-18 08:44:09,688 - appContents.websocket - INFO - ----------------------------------------------------------------------------------
+2024-09-18 08:44:09,691 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E3696441A0> disconnected. Total clients: 1
+2024-09-18 08:44:09,692 - websockets.server - INFO - connection closed
+2024-09-18 08:44:09,704 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:09] "[35m[1mGET /static/videos/1.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:13,032 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:13,047 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:13,061 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:13,070 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:13] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:25,036 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:25] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:44:31,451 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:31] "POST /upload HTTP/1.1" 200 -
+2024-09-18 08:44:31,466 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:31,469 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:31,470 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:31] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:31,480 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:31] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:44:31,503 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:31] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:38,439 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:38] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:45,027 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:45] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:44:45,041 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:45] "GET /callforward HTTP/1.1" 200 -
+2024-09-18 08:44:45,051 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E3698080B0> disconnected. Total clients: 0
+2024-09-18 08:44:45,052 - websockets.server - INFO - connection closed
+2024-09-18 08:44:45,059 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:45,072 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:45,082 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:45] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:44:45,082 - websockets.server - INFO - connection open
+2024-09-18 08:44:45,085 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:45] "[35m[1mGET /static/videos/background.mp4 HTTP/1.1[0m" 206 -
+2024-09-18 08:44:45,086 - appContents.websocket - INFO - New client connected. Total clients: 1
+2024-09-18 08:44:46,417 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:46] "GET /settings HTTP/1.1" 200 -
+2024-09-18 08:44:46,435 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:46,437 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:46] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:46,438 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:46,439 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:46] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:44:46,479 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:46] "[36mGET /static/img/favicon.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:47,732 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:47] "GET /remove HTTP/1.1" 200 -
+2024-09-18 08:44:47,759 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:47,760 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:47,762 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:47] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:47,763 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:47] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:44:50,251 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:50] "GET /gate HTTP/1.1" 200 -
+2024-09-18 08:44:50,271 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:50,271 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:50,278 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:50] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:50,281 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:50] "[36mGET /static/img/MG.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:50,282 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:50] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:44:53,555 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:53] "GET /main HTTP/1.1" 200 -
+2024-09-18 08:44:53,571 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:53,576 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:53,577 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:53] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:53,580 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:53] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:44:54,080 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:54] "GET /settings HTTP/1.1" 200 -
+2024-09-18 08:44:54,098 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:54] "[36mGET /static/img/Tensator_Logo_White.png HTTP/1.1[0m" 304 -
+2024-09-18 08:44:54,099 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:54,101 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-09-18 08:44:54,101 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:44:54] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-18 08:45:05,090 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:45:05] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:45:25,077 - werkzeug - INFO - 127.0.0.1 - - [18/Sep/2024 08:45:25] "GET /last_update_time HTTP/1.1" 200 -
+2024-09-18 08:45:31,179 - appContents.websocket - INFO - Client <websockets.legacy.server.WebSocketServerProtocol object at 0x000001E36981A1B0> disconnected. Total clients: 0
+2024-09-18 08:45:31,181 - websockets.server - INFO - connection closed
