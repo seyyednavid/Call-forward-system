@@ -13,7 +13,6 @@ logging.basicConfig(
     level=logging.INFO,  # Log level
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",  # Log format
     handlers=[
-        logging.FileHandler("websocket.log"),  # Log to a file in the root directory
         logging.StreamHandler()  # Also log to the console
     ]
 )

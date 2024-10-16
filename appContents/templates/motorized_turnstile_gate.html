@@ -64,19 +64,19 @@ block content %}
   var btn_ccw180 = document.getElementById("btn-ccw180");
 
   btn_cw90.addEventListener("click", function () {
-    sendMessage("West");
+    sendMessage("CW90");
   });
 
   btn_ccw90.addEventListener("click", function () {
-    sendMessage("North");
+    sendMessage("CCW90");
   });
 
   btn_ccw180.addEventListener("click", function () {
-    sendMessage("East");
+    sendMessage("CCW180");
   });
 
   btn_cw180.addEventListener("click", function () {
-    sendMessage("South");
+    sendMessage("CW180");
   });
 
   function sendMessage(direction) {
@@ -85,7 +85,7 @@ block content %}
       cb_id: "CB_123456789",
       device_type: "MG-button",
       cmd_info: {
-        target: "23",
+        target: "15",
         event: direction,
         flash_speed: 1,
         no_of_flashes: 5,

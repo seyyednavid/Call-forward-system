@@ -83,6 +83,12 @@
           if (cf_event == "Open") {
             var called_position = message.cmd_info.target;
             var filename = video_files[called_position];
+            console.log(filename);
+             // If no valid video is found for the target, ignore the message and return early
+             if (!filename) {
+              console.log("No video available for target:", called_position);
+              return;
+             }
             if (filename) {
               var videoObj = { target: called_position, filename: filename };
               videoQueue.push(videoObj);
@@ -128,8 +134,8 @@
                 .catch(error => console.error('Error checking updates:', error));
         }
 
-        // Check for updates every 60 seconds
-        setInterval(checkForUpdates, 20000); 
+        // Check for updates every 9 seconds
+        setInterval(checkForUpdates, 6000); 
 
         // Also check for updates immediately when the page loads
         checkForUpdates();

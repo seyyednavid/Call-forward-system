@@ -394,6 +394,8 @@ def remove_video(filename):
     file_path = os.path.join(upload_folder, filename)
     if os.path.exists(file_path):
         os.remove(file_path)
+        # Update the last upload time
+        Config.LAST_UPLOAD_TIME = datetime.utcnow().isoformat()
         flash(f"The video '{filename}' has been successfully removed.", "success")
     else:
         flash(f"The video '{filename}' does not exist.", "error")

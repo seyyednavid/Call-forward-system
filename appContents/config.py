@@ -21,7 +21,7 @@ class Config:
     # Secret key for session management and security
     SECRET_KEY="382860d6ef9587472b5f3bbe"
     
-    # Secret key for session management and security
+    # 
     VIDEOS_FOLDER="./appContents/static/videos"
     
     # Track the last upload time (initialize with the current time)
